@@ -402,15 +402,7 @@ Here, `W` is the number of work items.
 
 ### Suspending a Job
 
-{{< feature-state for_k8s_version="v1.21" state="alpha" >}}
-
-{{< note >}}
-Suspending Jobs is available in Kubernetes versions 1.21 and above. You must
-enable the `SuspendJob` [feature gate](/docs/reference/command-line-tools-reference/feature-gates/)
-on the [API server](/docs/reference/command-line-tools-reference/kube-apiserver/)
-and the [controller manager](/docs/reference/command-line-tools-reference/kube-controller-manager/)
-in order to use this feature.
-{{< /note >}}
+{{< feature-state for_k8s_version="v1.21" state="beta" >}}
 
 When a Job is created, the Job controller will immediately begin creating Pods
 to satisfy the Job's requirements and will continue to do so until the Job is

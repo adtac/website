@@ -175,6 +175,7 @@ different Kubernetes components.
 | `StorageVersionHash` | `false` | Alpha | 1.14 | 1.14 |
 | `StorageVersionHash` | `true` | Beta | 1.15 | |
 | `SuspendJob` | `false` | Alpha | 1.21 | |
+| `SuspendJob` | `true` | Beta | 1.22 | |
 | `TTLAfterFinished` | `false` | Alpha | 1.12 | 1.20 |
 | `TTLAfterFinished` | `true` | Beta | 1.21 | |
 | `TopologyAwareHints` | `false` | Alpha | 1.21 | |
